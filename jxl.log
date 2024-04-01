@@ -1,0 +1,71 @@
+2024-04-01 09:08:24,309 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {}->http://localhost:3000
+2024-04-01 09:08:24,331 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to localhost:3000
+2024-04-01 09:08:24,334 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connect to localhost:3000 timed out. Connection will be retried using another IP address
+2024-04-01 09:08:24,335 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to localhost:3000
+2024-04-01 09:08:24,372 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2024-04-01 09:08:24,375 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2024-04-01 09:08:24,375 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2024-04-01 09:08:24,375 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2024-04-01 09:08:24,376 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2024-04-01 09:08:24,376 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /users/register HTTP/1.1
+2024-04-01 09:08:24,376 [DEBUG] org.apache.http.wire  -  >> "POST /users/register HTTP/1.1[\r][\n]"
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.wire  -  >> "Content-Type: application/json[\r][\n]"
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 57[\r][\n]"
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.wire  -  >> "Host: localhost:3000[\r][\n]"
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.10)[\r][\n]"
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.headers  - >> POST /users/register HTTP/1.1
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.headers  - >> Content-Type: application/json
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.headers  - >> Content-Length: 57
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.headers  - >> Host: localhost:3000
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.10)
+2024-04-01 09:08:24,378 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2024-04-01 09:08:24,379 [DEBUG] org.apache.http.wire  -  >> "{"email":"biswa@mail.com","password":"123456","Age":"33"}"
+2024-04-01 09:08:24,509 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "X-Powered-By: Express[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "Vary: Origin, Accept-Encoding[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "Cache-Control: no-cache[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "Pragma: no-cache[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "Expires: -1[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "Content-Length: 275[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "ETag: W/"113-Ytr6gD4i1em1xElolCGhsGOzxdE"[\r][\n]"
+2024-04-01 09:08:24,511 [DEBUG] org.apache.http.wire  -  << "Date: Mon, 01 Apr 2024 03:38:24 GMT[\r][\n]"
+2024-04-01 09:08:24,512 [DEBUG] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+2024-04-01 09:08:24,512 [DEBUG] org.apache.http.wire  -  << "Keep-Alive: timeout=5[\r][\n]"
+2024-04-01 09:08:24,512 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.headers  - << HTTP/1.1 201 Created
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.headers  - << X-Powered-By: Express
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.headers  - << Vary: Origin, Accept-Encoding
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Credentials: true
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.headers  - << Cache-Control: no-cache
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.headers  - << Pragma: no-cache
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.headers  - << Expires: -1
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.headers  - << X-Content-Type-Options: nosniff
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+2024-04-01 09:08:24,513 [DEBUG] org.apache.http.headers  - << Content-Length: 275
+2024-04-01 09:08:24,514 [DEBUG] org.apache.http.headers  - << ETag: W/"113-Ytr6gD4i1em1xElolCGhsGOzxdE"
+2024-04-01 09:08:24,514 [DEBUG] org.apache.http.headers  - << Date: Mon, 01 Apr 2024 03:38:24 GMT
+2024-04-01 09:08:24,514 [DEBUG] org.apache.http.headers  - << Connection: keep-alive
+2024-04-01 09:08:24,514 [DEBUG] org.apache.http.headers  - << Keep-Alive: timeout=5
+2024-04-01 09:08:24,521 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive for 5000 MILLISECONDS
+2024-04-01 09:08:24,529 [DEBUG] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+2024-04-01 09:08:24,529 [DEBUG] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2024-04-01 09:08:24,598 [DEBUG] org.apache.http.wire  -  << "{[\n]"
+2024-04-01 09:08:24,598 [DEBUG] org.apache.http.wire  -  << "  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJpc3dhQG1haWwuY29tIiwiaWF0IjoxNzExOTQyNzA0LCJleHAiOjE3MTE5NDYzMDQsInN1YiI6IjMifQ.KbD40sjkrXIM_SSHmrEbMwnPcYv-6jjcANCimh_xA24",[\n]"
+2024-04-01 09:08:24,598 [DEBUG] org.apache.http.wire  -  << "  "user": {[\n]"
+2024-04-01 09:08:24,598 [DEBUG] org.apache.http.wire  -  << "    "email": "biswa@mail.com",[\n]"
+2024-04-01 09:08:24,598 [DEBUG] org.apache.http.wire  -  << "    "Age": "33",[\n]"
+2024-04-01 09:08:24,598 [DEBUG] org.apache.http.wire  -  << "    "id": 3[\n]"
+2024-04-01 09:08:24,598 [DEBUG] org.apache.http.wire  -  << "  }[\n]"
+2024-04-01 09:08:24,598 [DEBUG] org.apache.http.wire  -  << "}"
+2024-04-01 09:08:24,599 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1cdc1bbc
+2024-04-01 09:08:24,599 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive for 5000 MILLISECONDS
